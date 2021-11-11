@@ -17,7 +17,7 @@ entry_points:
       monitor: {type str, default: 'val_loss'}
 
     command: |
-          python mnist_autolog_example.py \
+          python mnist_autolog_example_dbfs.py \
             --max_epochs {max_epochs} \
             --gpus {gpus} \
             --accelerator {accelerator} \
